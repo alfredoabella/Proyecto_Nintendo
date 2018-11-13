@@ -1,0 +1,332 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    width:100%;
+    float:none;
+}
+
+/*CSS HOME*/
+.container-fluid {
+    background-color: white;
+}
+
+.jumbotron {
+    margin:0;
+    width:100%;
+    background-color:black;
+}
+.btn-primary {
+    border-color: red;
+    color: #fff;
+    background-color: red;
+    border-radius: 300px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+#header_home img {
+    width: 1200px;
+    display:flex;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    margin:0;
+    background-color: white;
+    padding-left:0;
+    padding-right:0;
+}
+.container p2{
+    color:white;
+}
+.barra_navegacion {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    float: right;
+}
+
+    .nav li {
+        display: block;
+        width: 20%;
+        margin: auto;
+        float: left;
+    }
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+a{
+    color:red;
+}
+
+
+.aside_home {
+    width: 15%;
+    display: table-cell;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+    .aside_home img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+.main {
+    width: 80%;
+    display: table-cell;
+    float: right;
+    font-family:Pretendo;
+}
+
+    .main h1 {
+        margin-left: 20px;
+        font-family: Pretendo;
+        font-size: 40px;
+        color: black;
+    }
+
+@font-face{
+    font-family:"Pretendo.ttf";
+    font-style:normal;
+    font-weight:normal;
+    src:local("?"), url("Pretendo.ttf") format('truetype');
+}
+
+h1{
+    font-family:Pretendo;
+}
+
+.historia1 {
+    width: 100%;
+    display: table-row;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#imagen_home {
+    width: 150px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#texto {
+    width: 70%;
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+#footer{
+    text-align:center;
+}
+#footer img{
+    width:30px;
+}
+
+
+/*MUNDO MARIO*/
+#navbar_select {
+    margin-left: 0px;
+}
+
+#personajes_nintendo {
+    margin-left: 0px;
+}
+
+#alineacion_columna {
+    width: 15%;
+    display: table-cell;
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#main_design {
+    width: 60%;
+    float: left;
+    text-align:center;
+    margin-top: 0px;
+    /*margin-left: 10px;*/
+    /*margin-right: 20px;*/
+    margin-bottom: 0px;
+}
+
+    #main_design p {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        text-align:center;
+        color: red;
+        margin-left: 20px;
+
+    }
+
+    #main_design select {
+        align-content: center;
+    }
+    
+#columna_derecha {
+    width: 15%;
+    display: table-cell;
+    float: right;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Página de contacto*/
+
+.header_contact {
+    width: 100%;
+    border-top: 5px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 5px;
+    background-color: rgba(255, 0, 0,0.88);
+    display: block;
+}
+
+
+
+.nav_contact {
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    background-color: rgba(255, 0, 0,0.88);
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+}
+
+    .nav_contact img {
+        width: 1200px;
+        display: block;
+        margin: auto;
+    }
+
+.telephone_contact {
+    width: 22%;
+    float: left;
+    display: table-cell;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.telephone_text {
+    width: 22%;
+    float: left;
+    display: table-cell;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: red;
+    font-size: large;
+}
+
+    .telephone_contact img {
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+    /*WEB RESPONSIVE*/
+@media screen and (max-width: 980px) {
+    #contenedor {
+        width: 90%;
+    }
+
+    #contenido {
+        width: 60%;
+    }
+
+    #barra_lateral {
+        width: 30%;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #encabezado {
+        height: auto;
+    }
+
+    #contenido {
+        width: auto;
+    }
+
+    #barra_lateral {
+        display: none;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+

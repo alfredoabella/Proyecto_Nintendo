@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mundo Mario</title>
+    <link rel="shortcut icon" href="Champiñon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+    <div class="container" id="navbar_select">
+        <nav class="row">
+            <ul class="nav nav-pill col-md-08 col-md-08-offset">
+                <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Mundo_Mario.html">Mundo Mario</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                <li class="social-item"><a href="https://www.facebook.com/NintendoES/?brand_redir=119240841493711" target="_blank"><span class="screen-reader-text">Facebook</span></a></li>
+                <li class="social-item"><a href="https://www.pinterest.es/nintendo/" target="_blank"><span class="screen-reader-text">Pinterest</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="lista"></div>
+    <div class="container" id="personajes_nintendo">
+        <nav class="row">
+            <div class="col-md-03" id="alineacion_columna">
+                <br />
+                <img id="logo" src="Champiñon.png" class="img-responsive" title="Champiñon" />
+                <br />
+            </div>
+            <div class="col-md-06 col-md-06-offset" id="main_design">
+                <h2 id="busqueda_nintendo">Busque su personaje y juego de Nintendo aquí</h2>
+                <br />
+                <p>Eliga una opción:</p>
+
+                <select id="selector"></select>
+                <ul id="characters"></ul>
+            </div>
+            <div class="col-md-03 col-md-03-offset" id="columna_derecha">
+                <img id="logo" src="Bowser.png" class="img-responsive" title="Bowser" />
+            </div>
+        </nav>
+    </div>
+
+    <!--Inputs para mostrar los personajes mario desde JavaScript-->
+    <input type="text" id="name" />
+    <input type="button" value="Guardar personajes favoritos" id="personaje_btn" />
+    <div id="mostrar"></div>
+    <footer class="container" id="footer">
+        <div class="jumbotron">
+            <p2>Copyright © Nintendo</p2><img class="iconos" src="Goomba.jpg" />
+            <p2>Design by Alfredo in Bilbao</p2><img class="iconos" src="caja.png" />
+            <a href="Error500.html">Ir a la página de error</a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
