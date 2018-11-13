@@ -1,0 +1,19 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{357ABA56-8682-4293-BD14-994C916CB0F3}"
+	ProjectSection(SolutionItems) = preProject
+		Home.html = Home.html
+		Mundo_Mario.html = Mundo_Mario.html
+		Contacto.html = Contacto.html
+		app.js = app.js
+		Style.css = Style.css
+		Error500.html = Error500.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+EndGlobal
